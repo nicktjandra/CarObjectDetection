@@ -4,7 +4,10 @@
 (Source: Zapp2Photo/Shutterstock.com)
 
 ## Overview
-Object recognition is the linchpin for self-driving cars and traffic safety cameras. It enables self-driving cars to identify and respond to objects like pedestrians and vehicles in real-time, ensuring safer autonomous driving. This notebook will walk through three object detection models that can identify and draw bounding-boxes around cars on the road: YOLOv8, R-CNN, and Bounding Box Regression (BB). The YOLOv8 model was implemented with the pre-packaged model from Ultralytics, and R-CNN and BB were built from the ground up. We will walk through differences between each model on a conceptual level, their implementation and respective evaluation scores. 
+Object recognition is the linchpin for self-driving cars. It enables self-driving cars to identify and respond to objects like pedestrians and vehicles in real-time, ensuring safer autonomous driving. This notebook will walk through three object detection models that can identify and draw bounding-boxes around cars on the road: YOLOv8, R-CNN, and Bounding Box Regression (BB). The YOLOv8 model was implemented with the pre-packaged model from Ultralytics, and R-CNN and BB were built from the ground up. We will walk through differences between each model on a conceptual level, their implementation and respective evaluation scores. 
+
+## Business Problem
+These object detection models were developed for as a tool for autonomous vehicle companies to detect cars on the road. They can be further repurposed to calculate the distance with respect to the vehicle, and 
 
 ## The Data
 The data was taken from a kaggle dataset consisting of roughly a thousand street view images divided into test and training sets. Some of these images consisted of cars and others did not. The dataset also included bounding box informations associated with each image. There were no labels for this dataset as there was only one class of object, a car. 
@@ -41,3 +44,10 @@ R-CNN is a two-step object detection approach. It first generates region proposa
 
 Bounding Box Regression:
 Bounding Box Regression is a simple technique that involves training a model to predict adjustments to the coordinates of bounding boxes. Initially, a bounding box is defined around an object's region. The model then learns to predict corrections to the box's coordinates, refining its position and size. This model however is limited because it can only predict one bounding box in an image that should contain multiple vehicles. 
+
+
+## Evaluation
+
+## Next Steps
+Given more time, these object detection models could be expanded to include a wider range of objects like pedestrians, street signs, and various types of vehicles. This enhancement would require much more data and training time but would make self-driving systems more aware and capable, improving road safety and adherence to traffic rules.
+Tangential to improving the model, we could also develop a system with the ability to measure the precise distance between the host vehicle and detected cars and calculate the velocities of objects within the camera's field of view. Additionally, the capability to discern whether a detected car is moving away from or approaching the host vehicle would be very helpful, moving towards a more sophisticated autonomous driving system. 
