@@ -50,4 +50,5 @@ Bounding Box Regression is a simple technique that involves training a model to 
 
 ## Next Steps
 Given more time, these object detection models could be expanded to include a wider range of objects like pedestrians, street signs, and various types of vehicles. This enhancement would require much more data and training time but would make self-driving systems more aware and capable, improving road safety and adherence to traffic rules.
+
 Tangential to improving the model, we could also develop a system with the ability to measure the precise distance between the host vehicle and detected cars and calculate the velocities of objects within the camera's field of view. Additionally, the capability to discern whether a detected car is moving away from or approaching the host vehicle would be very helpful, moving towards a more sophisticated autonomous driving system. 
