@@ -10,7 +10,7 @@ Object recognition is the linchpin for self-driving cars. It enables self-drivin
 These object detection models were developed as a tool for autonomous vehicles and traffic safety cameras to enable the cameras to perceive and understand its environment by identifying and locating objects of interest in real-time. Specifically in identifying and locating where cars are in a picture.
 
 ## The Data
-The data was taken from a kaggle dataset consisting of roughly a thousand street view images divided into test and training sets. Some of these images consisted of cars and others did not. The dataset also included bounding box informations associated with each image. There were no labels for this dataset as there was only one class of object, a car. 
+The data was taken from a kaggle dataset consisting of 1176 street view images divided into test and training sets. Some of these images consisted of cars and others did not. The dataset also included bounding box informations associated with each image. There were no labels for this dataset as there was only one class of object, a car. 
 
 To download this dataset visit the following link: https://www.kaggle.com/datasets/sshikamaru/car-object-detection
 
