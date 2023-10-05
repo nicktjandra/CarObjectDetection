@@ -65,3 +65,7 @@ Tangential to improving the model, we could also develop a system with the abili
 ├── LICENSE
 └── presentation.pdf
 ```
+
+## Sources
+This repository benefited tremendously from pyimage search tutorials on bounding box regression, R-CNN, and mAP evaluation (https://pyimagesearch.com/)
+Kaggle (https://www.kaggle.com/datasets/sshikamaru/car-object-detection)
