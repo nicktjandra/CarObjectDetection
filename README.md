@@ -45,7 +45,8 @@ Bounding Box Regression is a simple technique that involves training a model to 
 
 
 ## Evaluation
-
+mAP scores for YOLO performed the best with a test set score of 0.9723
+mAP scores for Bounding Box regression were lower with a test set score of 0.7234
 
 ## Conclusions
 
@@ -69,5 +70,5 @@ Tangential to improving the model, we could also develop a system with the abili
 ```
 
 ## Sources
-This repository benefited tremendously from pyimage search tutorials on bounding box regression, R-CNN, and mAP evaluation (https://pyimagesearch.com/)
+This repository benefited tremendously from pyimage search tutorials on bounding box regression, R-CNN, and mAP evaluation (https://pyimagesearch.com/). As well as, former Flatiron data science student, Andrew Boucher's repository on crop weed dectection (https://github.com/nickthetj/Crop-Weed-Detection)
 Kaggle (https://www.kaggle.com/datasets/sshikamaru/car-object-detection)
