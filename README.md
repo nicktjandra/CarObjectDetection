@@ -49,6 +49,8 @@ mAP scores for YOLO performed the best with a test set score of 0.9723.
 
 mAP scores for Bounding Box regression were lower with a test set score of 0.7234.
 
+mAP scores for R-CNN: TBD.
+
 ## Conclusions
 
 I would recommend the YOLOv8 over R-CNN or Bounding Box model for single-class object detection due to the speed, simplicity, and efficiency in handling objects of varying sizes and aspect ratios. These models are single-shot detectors, enabling real-time processing, and require less data for training, making them practical for limited datasets. However, the choice should be based on your specific requirements, as RCNN-based models excel in precise localization and larger datasets.
