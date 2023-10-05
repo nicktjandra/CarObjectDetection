@@ -57,10 +57,11 @@ Tangential to improving the model, we could also develop a system with the abili
 ## Repository Structure
 ```
 ├── data
+├── Final_notebooks
+  ├── YOLOv8_Final.ipynb
+  ├── RCNN_Final.ipynb
+  ├── Bounding_Box.ipynb
 ├── README.md
-├── BoundingBox_Final.ipynb
-├── YOLOv8_Final.ipynb
-├── RCNN_Final.ipynb
 ├── .gitignore
 ├── LICENSE
 └── presentation.pdf
