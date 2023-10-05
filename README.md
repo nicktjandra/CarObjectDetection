@@ -45,8 +45,9 @@ Bounding Box Regression is a simple technique that involves training a model to 
 
 
 ## Evaluation
-mAP scores for YOLO performed the best with a test set score of 0.9723
-mAP scores for Bounding Box regression were lower with a test set score of 0.7234
+mAP scores for YOLO performed the best with a test set score of 0.9723.
+
+mAP scores for Bounding Box regression were lower with a test set score of 0.7234.
 
 ## Conclusions
 
