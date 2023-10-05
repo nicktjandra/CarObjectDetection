@@ -15,7 +15,7 @@ The data was taken from a kaggle dataset consisting of 1176 street view images d
 To download this dataset visit the following link: https://www.kaggle.com/datasets/sshikamaru/car-object-detection
 
 ## Data Preparation
-In the notebook, the following preprocessing steps have been applied to each of the models:
+In the notebook, different preprocessing steps have been applied for each of the models:
 
 For YOLOv8:
 The input images were resized or padded to a fixed size (e.g., 416x416 pixels).
@@ -28,10 +28,7 @@ Each proposal was cropped and resized to match the model's input size.
 Pixel values were normalized to maintain data uniformity.
 
 Concerning Bounding Box Regression:
-It was assumed that objects were already localized within the input images.
-Optional adjustments to bounding box coordinates were made when necessary.
-Bounding box coordinates or relevant features were normalized as required.
-These preprocessing steps ensure that the data is suitably prepared for each model within the notebook.
+There was not much data preprocessing needed for Bounding Box regression. For the bounding boxes I extracted them from the csv file, ensuring that non of the boxes were outside of the image dimensions. And for the images, I loaded the each image with 224x224 dimensions then normalized the color values per pixel to between 0 and 1.
 
 ## Modeling
 In this notebook, there are three models for car detection: YOLOv8, R-CNN, and Bounding Box Regression.
@@ -47,6 +44,10 @@ Bounding Box Regression is a simple technique that involves training a model to 
 
 
 ## Evaluation
+
+## Conclusions
+
+I would recommend the YOLOv8 over R-CNN or Bounding Box model for single-class object detection due to the speed, simplicity, and efficiency in handling objects of varying sizes and aspect ratios. These models are single-shot detectors, enabling real-time processing, and require less data for training, making them practical for limited datasets. However, the choice should be based on your specific requirements, as RCNN-based models excel in precise localization and larger datasets.
 
 ## Next Steps
 Given more time, these object detection models could be expanded to include a wider range of objects like pedestrians, street signs, and various types of vehicles. This enhancement would require much more data and training time but would make self-driving systems more aware and capable, improving road safety and adherence to traffic rules.
