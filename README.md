@@ -1,6 +1,6 @@
 # Tools for Car Object Detection
 
-<img width="1109" alt="Screen Shot 2023-10-03 at 12 13 27 PM" src="https://github.com/nickthetj/CarObjectDetection/assets/37059423/bf1b8802-b453-44ea-8dde-fe1a0ddcfe1d">
+![Car Object Image](images/OBJDET.png)
 (Source: Zapp2Photo/Shutterstock.com)
 
 ## Overview
