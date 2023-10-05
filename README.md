@@ -63,6 +63,7 @@ Tangential to improving the model, we could also develop a system with the abili
 ## Repository Structure
 ```
 ├── data
+├── images
 ├── YOLOv8_Final.ipynb
 ├── RCNN_Final.ipynb
 ├── Bounding_Box.ipynb
