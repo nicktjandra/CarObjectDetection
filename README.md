@@ -18,12 +18,13 @@ To download this dataset visit the following link: https://www.kaggle.com/datase
 In the notebook, different preprocessing steps have been applied for each of the models:
 
 For YOLOv8:
-The input images were resized or padded to a fixed size (e.g., 416x416 pixels).
+The input images were resized or padded to a fixed size (e.g., 248x248 pixels).
 Pixel values were normalized for consistent scaling.
 The bounding box information from the dataset was reorganized into yaml files for the yolo algorithm to process.
 
 Regarding R-CNN:
-Region proposals were generated, employing methods like selective search.
+Region proposals were generated, employing selective search. 
+These images were classified into folders (car, no car) based on their IOU compared to the ground truth boxes.
 Each proposal was cropped and resized to match the model's input size.
 Pixel values were normalized to maintain data uniformity.
 
@@ -44,6 +45,7 @@ Bounding Box Regression is a simple technique that involves training a model to 
 
 
 ## Evaluation
+
 
 ## Conclusions
 
