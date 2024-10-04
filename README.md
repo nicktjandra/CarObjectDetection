@@ -2,6 +2,7 @@
 
 ![Car Object Image](images/OBJDET.png)
 (Source: Zapp2Photo/Shutterstock.com)
+<img width="1109" alt="OBJDET" src="https://github.com/user-attachments/assets/75ed8b97-e488-40f9-9542-33d97f7a3cba">
 
 ## Overview 
 Object recognition is the linchpin for self-driving cars. It enables self-driving cars to identify and respond to objects like pedestrians and vehicles in real-time, ensuring safer autonomous driving. This notebook will walk through three object detection models that can identify and draw bounding-boxes around cars on the road: YOLOv8, R-CNN, and Bounding Box Regression (BB). The YOLOv8 model was implemented with the pre-packaged model from Ultralytics, and R-CNN and BB were built from the ground up. We will walk through differences between each model on a conceptual level, their implementation and respective evaluation scores. 
